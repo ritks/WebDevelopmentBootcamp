@@ -31,6 +31,8 @@ span{
 
 .post a{
     color: #a8dadc;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* footer a{
@@ -52,4 +54,20 @@ input[type="password"]{
 /* section[class="post"] */
 section.post{
     background-color: purple;
+}
+
+.post button:hover{
+    background-color: #e63946;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(3n){
+    background-color: #dfe8dc;
 }
