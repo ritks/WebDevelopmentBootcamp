@@ -33,9 +33,9 @@ span{
     color: #a8dadc;
 }
 
-footer a{
+/* footer a{
     color: #e63946;
-}
+} */
 
 h2 + button{
     font-size: 20px;
@@ -43,4 +43,13 @@ h2 + button{
 
 footer > a{
     color: #456b9d;
+}
+
+input[type="password"]{
+    color: greenyellow;
+}
+
+/* section[class="post"] */
+section.post{
+    background-color: purple;
 }
