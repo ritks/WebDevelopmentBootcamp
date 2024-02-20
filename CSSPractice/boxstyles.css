@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 div{
     width: 200px;
     height: 200px;
@@ -5,9 +8,10 @@ div{
 }
 
 h1{
-    width: 100px;
+    width: 200px;
     background-color: pink;
-    padding-left: 30px
+    padding-left: 30px;
+    margin-bottom: 0;
 }
 
 #one{
@@ -16,6 +20,8 @@ h1{
     border-color: black;
     border-style: solid;
     /* box-sizing: border-box; */
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 #two{
     background-color: #b5838d;
@@ -23,6 +29,7 @@ h1{
     border-width: 3px;
     border-style: dashed;
     border-left-width: 8px;
+    margin: 200px;
 }
 #three{
     background-color: #6d6875;
