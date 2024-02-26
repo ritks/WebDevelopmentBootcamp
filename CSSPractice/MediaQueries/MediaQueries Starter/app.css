@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+nav {
+    font-size: 1.5em;
+}
+
+ul,li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* @media (min-wdith: 600px) and (max-width: 800px){
+    h1{
+        color: purple;
+    }
+} */
+
+h1{
+    color: red;
+}
+@media (min-wdith: 500px){
+    h1{
+        color: orange;
+    }
+}
+@media (min-wdith: 1000px){
+    h1{
+        color: yellow;
+    }
+}
+@media (min-wdith: 1500px){
+    h1{
+        color: green;
+    }
+}
+
+@media (orientation: landscape){
+    h1{
+        background-color: magenta;
+    }
+}
