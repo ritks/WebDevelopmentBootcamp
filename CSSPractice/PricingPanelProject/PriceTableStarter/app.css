@@ -62,6 +62,26 @@ body{
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppcase;
+}
+
+.pricing-plan{
+    border-bottom: 1px solid #e1f1ff; 
+}
+
+.pricing-plan:last-chiled{
+    border-bottom: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+
 
 }
+
+@media ()
