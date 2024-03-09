@@ -17,6 +17,8 @@ true;
 false;
 let isHappy = true;
 
+let notANumber = NaN;
+
 //Naming Conventions
 // Use upper camel-cased names:
 let numberOfChickens = 6; //GOOD
