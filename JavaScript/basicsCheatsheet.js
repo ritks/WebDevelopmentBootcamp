@@ -22,6 +22,11 @@ let notANumber = NaN;
 //Don't use var anymore, it's valid but old
 var justANumber = 90;
 
+// undefined and null
+let x; //would be undefined
+let y = null; //value is explicitly nothing
+
+
 //Naming Conventions
 // Use upper camel-cased names:
 let numberOfChickens = 6; //GOOD
