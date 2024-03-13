@@ -2,6 +2,7 @@
 let word = "whatever";
 
 // Strings are immutable
+// Assigning a new value to a string will create a new instance
 // Adding anything to a string will concatenate it
 let newWord = word + 1;
 // newWord is now "whatever1"
