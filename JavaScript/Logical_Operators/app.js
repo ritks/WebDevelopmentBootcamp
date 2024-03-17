@@ -19,3 +19,8 @@ else if (age >= 10 && age < 65){
 else{
     console.log("Invalid age");
 }
+
+const name = prompt("Enter you name");
+if(!name){
+    name = prompt("Try again");
+}
