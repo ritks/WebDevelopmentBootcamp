@@ -22,5 +22,6 @@ else{
 
 const name = prompt("Enter you name");
 if(!name){
-    name = prompt("Try again");
+    name = prompt("Try again, that wasn't a valid name");
+
 }
