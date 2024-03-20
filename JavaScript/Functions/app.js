@@ -3,3 +3,5 @@ function sing(){
     console.log("RE");
     console.log("MI");
 }
+
+sing();
