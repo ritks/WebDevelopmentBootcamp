@@ -4,6 +4,7 @@ while (input !== "quit") {
     if (input === "new") {
         let item = prompt("What would you like to add to the todo list?");
         list.push(item);
+        input = prompt("What next?");
     }
     else if(input === "list"){
         console.log("*********");
@@ -11,13 +12,14 @@ while (input !== "quit") {
             console.log(`${i}: ${list[i]}`);
         }
         console.log("*********");
+        input = prompt("What next?");
     }
     else if(input === "delete"){
         let toDelete = parseInt(prompt("What is the index of the item you would like to delete?"));
         if(toDelete >= 0 && toDelete < list.length){
             list.splice(toDelete, 1);
         }
-
+        input = prompt("What next?");
     }
     else{
         input = prompt("Not recognized, please enter a valid command.");
