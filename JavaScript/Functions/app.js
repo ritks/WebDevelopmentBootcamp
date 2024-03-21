@@ -5,3 +5,7 @@ function sing(){
 }
 
 sing();
+
+function greet(firstName, lastName){
+    console.log(`Hey there ${firstName} ${lastName[0]}.`);
+}
