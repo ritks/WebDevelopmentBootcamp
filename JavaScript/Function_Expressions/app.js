@@ -20,3 +20,34 @@ function rollDie(){
 }
 
 callTwice(rollDie);
+
+
+
+// Returning functions
+
+function makeMysteryFunc(){
+    const rand = Math.random();
+    if(rand < 0.5){
+        return function(){
+            console.log("Congrats you win!!");
+        }
+    }
+    else{
+        return function(){
+            alert("THIS IS BAD!");
+        }
+    }
+}
+
+
+function makeBetweenFunc(min, max){
+    return function(num){
+        return num >=min && num <=max;
+    }
+}
+
+// function isBetween(num){
+//     return num >- 50 && num <=100;
+// }
+
+const isChild = makeBetweenFunc(0,18);
