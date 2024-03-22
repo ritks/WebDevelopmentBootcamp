@@ -7,3 +7,12 @@ const myMath = {
         return num **3;
     }
 }
+
+const cat = {
+    name: "Blue Steele",
+    color: "Grey",
+    breed: "Scottish Fold",
+    meow(){
+        console.log(`${this.name} says meow.`);
+    }
+}
