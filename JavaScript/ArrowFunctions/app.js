@@ -21,3 +21,15 @@ const rollDie = () => (
 
 const betterAdd = (x, y) => x + y;
 
+console.log("Hello");
+setTimeout(() =>{
+    console.log("Im here")
+}, 3000);
+console.log("Goodbye");
+
+
+let id =  setInterval(() => {
+    console.log(Math.random())
+}, 3000);
+// to clear interval, use
+// clearInterval(id);
