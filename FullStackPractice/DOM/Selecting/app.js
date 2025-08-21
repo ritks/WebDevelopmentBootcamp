@@ -1,3 +1,8 @@
+const banner = document.getElementById("banner");
+console.dir(banner);
+const toc = document.getElementById("toc");
+console.log(toc.tagName);
+
 // const allImages = document.getElementsByTagName('img');
 
 // for(let img of allImages){
