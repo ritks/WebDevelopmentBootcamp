@@ -21,3 +21,13 @@ h2.classList.contains("border");
 h2.classList.toggle("purple");
 h2.classList.toggle("purple");
 
+
+const firstBold = document.querySelector("b");
+console.log(firstBold.parentElement)
+const paragraph = firstBold.parentElement;
+console.log(paragraph.children)
+
+let squareImg = document.querySelector(".square");
+// use nextElement sibling and prevElementSibling because nextSibling and prevSibling give nodes, which often contain white space and text nodes
+console.log(squareImg.nextElementSibling)
+console.log(squareImg.prevElementSibling)
