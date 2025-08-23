@@ -46,3 +46,7 @@ const newB = document.createElement("b");
 newB.append("bolded text lol");
 document.querySelector("h1").insertAdjacentElement("afterend", newB);
 console.log(document.querySelector("h1").nextElementSibling === newB);
+
+// removing elements
+newB.parentElement.removeChild(newB);
+newImage.remove();
