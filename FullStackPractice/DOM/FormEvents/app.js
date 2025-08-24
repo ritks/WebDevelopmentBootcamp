@@ -12,3 +12,11 @@ form.addEventListener("submit", function (e) {
     list.append(newLI);
     input.value = "";
 });
+
+list.addEventListener("click", function (e) {
+    console.log("click on ul");
+    console.log(e);
+    if (e.target.nodeName === "LI"){
+        e.target.remove();
+    }
+});
