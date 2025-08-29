@@ -23,6 +23,14 @@ const fakeRequestPromise = (url) => {
     })
 }
 
+// fakeRequestCallback("books.com",
+//     (response) =>{
+//     console.log("it worked")
+//     console.log(response)
+// }, (err)=>{
+//     console.log("Error!!", err)
+// })
+
 
 // fakeRequestCallback('books.com/page1',
 //     function (response) {
