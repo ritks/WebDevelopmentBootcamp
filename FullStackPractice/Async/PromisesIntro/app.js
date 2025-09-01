@@ -23,6 +23,17 @@ const fakeRequestPromise = (url) => {
     })
 }
 
+async function makeTwoRequests(){
+    try {
+
+        let data1 = await fakeRequestPromise("/page1");
+        let data2 = await fakeRequestPromise("/page2");
+        console.log(data1)
+    } catch (e) {
+        console.log("CAUGHT AN ERROR")
+        console.log("Error is: ", e)
+    }
+}
 // fakeRequestCallback("books.com",
 //     (response) =>{
 //     console.log("it worked")
