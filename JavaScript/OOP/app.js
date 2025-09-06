@@ -71,3 +71,12 @@ class Color {
 const c1 = new Color(255, 67, 89, "tomato");
 const red = new Color(255, 0, 0, "red")
 const white = new Color(255, 255, 255, "white")
+
+class Node {
+    constructor(key=-1, value=-1, next=null, prev=null) {
+        this.key = key;
+        this.value = value;
+        this.next = next;
+        this.prev = prev;
+    }
+}
